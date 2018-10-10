@@ -1,0 +1,70 @@
+label, a, p, h1, h2, h3, h4, h5{
+	color: white;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+hr, #carousel {
+	background-color: white;
+}
+
+header, #tiles, footer{
+	background-color: #3c4451;	
+}
+
+nav, #graph, #tiles .card, #chartAlert{
+	background-color: #353b47;
+}
+
+label.btn.active.focus {
+	outline: none;
+	box-shadow: none;	
+}
+
+#tiles, footer{
+	box-shadow: inset 1px 1px 12px 4px rgba(53,59,71,0.79);
+}
+
+#carouselSlide, input {
+	box-shadow: 1px 1px 12px 7px rgba(53,59,71,0.79);
+}
+
+.leftButtons {
+	background-color: #353b47;
+	border: none;
+}
+
+.card-body{	
+	box-shadow: 1px 1px 12px 1px rgba(53,59,71,0.79);
+}
+
+button.leftButtons:focus{
+	outline: none;
+}
+
+label.active, label.btn:hover {
+	text-decoration: underline;
+}
+
+.leftImgs:hover{
+	-ms-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.navbar-toggler-icon{
+	background-image: url("../img/menu.png");
+}
+
+button.navbar-toggler:focus{
+	outline: none;	
+}
+
+a:hover{
+	color: #999999;	
+}
+
+.fixed-nav {
+	background-color: rgba(29, 33, 40, 0.9);
+	box-shadow: 1px 1px 12px 0px rgba(53,59,71,0.79);
+}
+
